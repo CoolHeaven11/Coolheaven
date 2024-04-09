@@ -1,0 +1,55 @@
+*{margin:0;
+padding:0;}
+.body{
+    background-image: url(wall.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left:sm300px;
+}
+
+#board{
+    background: linear-gradient(rgb(0, 191, 255), rgb(0, 255, 102) );
+    min-height: 90vmin;
+    min-width: 70vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+    position:absolute;
+
+}
+.head{
+    background: linear-gradient(rgb(29, 29, 247),rgb(5, 5, 106));
+    border-radius: 40%;
+    transform: scale(1.1);
+}
+.food{
+    background:url('js/strawberrry.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(1.8);
+    background-size: contain;
+}
+.snake{
+    background:linear-gradient(yellow,orange,rgb(129, 129, 4));
+    border-radius: 45%;
+}
+#scorebox{
+    position: fixed;
+    top:50px;
+    right: 200px;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+#HscoreBox{
+    position: fixed;
+    top:100px;
+    right: 120px;
+    font-weight: bold;
+    font-size: xx-large;
+}

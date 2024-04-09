@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: aquamarine;
+    width: 200px;
+    height: 250px;
+    border-radius: 4px;
+}
+.search{
+    height: 30px;
+    width: 30px;
+    background-color: azure;
+}

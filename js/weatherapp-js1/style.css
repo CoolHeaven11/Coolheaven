@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: darkblue;
+    width: 400px;
+    height: 510px;
+    border-radius: 8px;
+    color: white;
+    
+}
+.navbar{
+    display: flex;
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navbar input{
+    border: azure;
+    border-radius: 4px;
+    height: 30px;
+    width: 280px;
+    padding-left: 8px;
+    outline: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+.searchbar{
+    height: 22px;
+    width: 22px;
+    background-color: azure;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    zoom: 1.5;
+}
+.weatherimg {
+    margin-top: 25px;
+}
+.textdata{
+    font-size: x-large;
+    margin-right: 5px;
+    
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.measurement{
+    font-size: large;
+    margin-left: 18px;
+}
+.windspeed{
+    font-size: large;
+    margin-left: 18px;
+}
+.category{
+    font-size: large;
+    margin-left: 15px;
+}
+
